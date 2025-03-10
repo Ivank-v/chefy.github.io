@@ -503,6 +503,7 @@ body
 
 .popular 
 {
+    max-width: 390px;
     height: 574px;
 }
 
@@ -1088,13 +1089,15 @@ body
 }
 
 
+
+
 @media(max-width:400px)
 {
 
         
     
     .navbar, .navbar2 {
-        width: 100%;
+        width: 390px;
         flex-direction: column;
         align-items: center;
         padding: 10px 20px;
@@ -1395,7 +1398,7 @@ body
 
     .footer 
     {
-        width: 450px;
+        width: 430px;
         height: auto;
         padding: 20px 10px;
         background-color: #74371E;
